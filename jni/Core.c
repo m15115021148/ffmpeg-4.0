@@ -1,6 +1,6 @@
 #include <jni.h>
 #include <stdio.h>
-#include "ffmpeg.h"
+#include "ffmpeg/ffmpeg.h"
 
 JNIEXPORT jint JNICALL Java_com_geek_ffmpegtest1_FFmpegUtil_run(JNIEnv *env,
         jclass obj, jobjectArray commands) {
