@@ -10,6 +10,7 @@ include $(PREBUILT_SHARED_LIBRARY)
 include $(CLEAR_VARS)
 LOCAL_MODULE := cubic
 LOCAL_SRC_FILES := Core.c \
+		ffmpeg.c \
 		ffmpeg/ffmpeg.c \
 		ffmpeg/ffmpeg_opt.c \
 		ffmpeg/cmdutils.c \
